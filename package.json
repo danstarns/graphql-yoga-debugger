@@ -1,0 +1,21 @@
+{
+  "name": "graphql-yoga-debugger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node src/index.ts",
+    "debugger": "npx graphql-debugger"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-debugger/graphql-yoga": "0.0.0-alpha.86",
+    "graphql-debugger": "0.0.0-alpha.86",
+    "@graphql-tools/schema": "10.0.2",
+    "graphql": "16.8.1",
+    "ts-node": "10.9.2",
+    "typescript": "5.3.3"
+  }
+}
